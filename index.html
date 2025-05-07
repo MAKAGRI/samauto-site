@@ -2,62 +2,127 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SAM AUTO HI TECH SERVICE LLC</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f7f7f7;
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
-    .container {
-      max-width: 800px;
-      margin: 50px auto;
-      background: white;
-      border-radius: 12px;
-      padding: 30px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.1);
-    }
-    h1 {
-      color: #333;
-      font-size: 28px;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 18px;
-      color: #555;
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
     }
-    .info {
-      margin-top: 20px;
-    }
-    .label {
-      font-weight: bold;
-      color: #222;
-    }
-    .footer {
-      margin-top: 40px;
+
+    header {
+      background: #1a1a1a;
+      color: #fff;
+      padding: 60px 20px;
       text-align: center;
-      color: #aaa;
-      font-size: 14px;
+    }
+
+    header h1 {
+      font-size: 36px;
+    }
+
+    header p {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+
+    nav {
+      background: #333;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .services li {
+      background: #e4e4e4;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+    }
+
+    .contact p {
+      margin: 10px 0;
+    }
+
+    footer {
+      background: #1a1a1a;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    a {
+      color: #3498db;
     }
   </style>
 </head>
 <body>
-  <div class="container">
+
+  <header>
     <h1>SAM AUTO HI TECH SERVICE LLC</h1>
-    <p>Welcome to SAM AUTO HI TECH SERVICE – your trusted partner for advanced auto care and technology services.</p>
+    <p>Your Trusted Auto Tech Partner in Morrow, Georgia</p>
+  </header>
 
-    <div class="info">
-      <p><span class="label">📍 Address:</span> 6359 Katie Ln, Morrow, GA 30260, USA</p>
-      <p><span class="label">📞 Phone:</span> (618) 812-4408</p>
-      <p><span class="label">📧 Email:</span> <a href="mailto:contact@samautoservice.online">contact@samautoservice.online</a></p>
-    </div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <div class="footer">
-      &copy; 2025 SAM AUTO HI TECH SERVICE LLC. All rights reserved.
-    </div>
-  </div>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      At SAM AUTO HI TECH SERVICE LLC, we specialize in high-tech auto services and maintenance solutions.
+      Located in Morrow, GA, we are committed to delivering excellence, reliability, and fast service for your vehicle's needs.
+    </p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>✅ Advanced Diagnostics</li>
+      <li>✅ Engine & Transmission Repair</li>
+      <li>✅ Electrical System Fixes</li>
+      <li>✅ Preventative Maintenance</li>
+      <li>✅ Brake & Suspension Work</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p><strong>📍 Address:</strong> 6359 Katie Ln, Morrow, GA 30260, USA</p>
+    <p><strong>📞 Phone:</strong> <a href="tel:6188124408">618-812-4408</a></p>
+    <p><strong>📧 Email:</strong> <a href="mailto:contact@samautoservice.online">contact@samautoservice.online</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SAM AUTO HI TECH SERVICE LLC. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
